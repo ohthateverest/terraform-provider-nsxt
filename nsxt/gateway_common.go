@@ -42,6 +42,7 @@ var nsxtPolicyTier0GatewayRedistributionRuleTypes = []string{
 	model.Tier0RouteRedistributionRule_ROUTE_REDISTRIBUTION_TYPES_TIER1_SERVICE_INTERFACE,
 	model.Tier0RouteRedistributionRule_ROUTE_REDISTRIBUTION_TYPES_TIER1_SEGMENT,
 	model.Tier0RouteRedistributionRule_ROUTE_REDISTRIBUTION_TYPES_TIER1_IPSEC_LOCAL_ENDPOINT,
+	model.Tier0RouteRedistributionRule_ROUTE_REDISTRIBUTION_TYPES_INTER_VRF_STATIC,
 }
 
 func getFailoverModeSchema(defaultValue string) *schema.Schema {
